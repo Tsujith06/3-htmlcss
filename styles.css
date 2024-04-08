@@ -3,26 +3,27 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f2eeee;
+    background-color:beige;
   }
   
   .container {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding-left: 50px;
+    max-width: 100%;
+    margin-left: 10%;
+
   }
   
   .header {
     background-color: #5a5d5f;
     color: #0d0d0d;
     min-height: 70px;
-    max-width: 1500px;
+    max-width: 100%;
   }
   
   .header .container {
     display: flex;
     justify-content: space-between;
     align-items: right;
+    max-width: 100%;
   }
   .hero .taq span{
     font-weight: bolder;
@@ -91,30 +92,28 @@ body {
   table td {
     border: 1px solid #dddddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
   }
-  
+
   table th {
     background-color: #ffffff;
     color:mediumturquoise;
   }
+
   
-  table td {
-    text-align: center;
-  }
   
   table tr:nth-child(3) {
     background-color:mediumturquoise;
   }
   .header .hero .container .logo{
     text-align: left;
-    padding-right: 600px;
+    padding-right: 800px;
     color: mediumturquoise;
   }
   .header .hero .taq{
     text-align: left;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 1%;
+    padding-left: 10%;
   }
   .header .hero .taq button
   {
@@ -148,11 +147,12 @@ body {
   }
   .right{
     text-align:left;
-    padding-right: 50px;
+    padding-left: 200px;
     padding-bottom: 50px;
   }
   .same{
     display: flex;
+    padding:5px;
   }
   .right .image{
     text-align: center;
@@ -172,9 +172,9 @@ body {
     border-style: solid;
     border-radius: 12px;
     border-color: #dddddd;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     color: mediumturquoise;
     font-size: larger;
     background-color: #ffffff;
@@ -182,8 +182,12 @@ body {
   .right .image .border1{
     border-style: solid;
     border-radius: 12px;
-    border-color:#ffffff;
-    background-color: #ffffff;
+    border-color:aliceblue;
+    background-color:aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-width: 10px;
   }
   .sun{
     border-style: solid;
